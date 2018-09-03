@@ -1,0 +1,11 @@
+
+# binaries
+bin/
+vendor/
+
+# terraform
+.terraform
+terraform.tfstate*
+
+# IDE
+.vscode
