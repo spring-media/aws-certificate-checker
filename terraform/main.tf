@@ -4,3 +4,4 @@ module "lambda" {
   function_name = "certificate_checker"
   s3_bucket     = "${var.s3_bucket}"
   s3_key        = "${var.version}/certificate_checker.zip"
+}

@@ -1,4 +1,4 @@
-NAME := certificate_checker
+NAME := aws-certificate-checker
 PKG := github.com/spring-media/$(NAME)
 
 VERSION ?= $(shell cat VERSION.txt)
